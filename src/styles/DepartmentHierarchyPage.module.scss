@@ -1,0 +1,35 @@
+$page-padding: 20px;
+$collapse-width: 600px;
+$department-padding: 10px;
+$button-margin-right: 10px;
+$background-color: #ffffff;
+$border-radius: 8px;
+
+.pageContainer {
+  padding: $page-padding;
+  display: flex;
+  justify-content: center;
+}
+
+.pageHeader {
+  color: rgba(0, 0, 0, 0.88);
+}
+
+.collapseContainer {
+  width: $collapse-width;
+}
+
+.departmentItem {
+  display: flex;
+  align-items: center;
+  padding: $department-padding 0;
+}
+
+.primaryButton {
+  margin-right: $button-margin-right;
+}
+
+.collapsePanel {
+  background-color: $background-color;
+  border-radius: $border-radius;
+}

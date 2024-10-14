@@ -1,0 +1,18 @@
+$form-padding: 20px;
+$form-background: #f0f2f5;
+$border-radius: 10px;
+
+.formContainer {
+  width: 300px;
+  padding: $form-padding;
+  border-radius: $border-radius;
+  background: $form-background;
+}
+
+.submitButton {
+  width: 100%;
+}
+
+.errorMessage {
+  color: red;
+}

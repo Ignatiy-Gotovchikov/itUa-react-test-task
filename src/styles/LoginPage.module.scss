@@ -1,0 +1,8 @@
+$vh-full: 100vh;
+
+.loginPageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: $vh-full;
+}

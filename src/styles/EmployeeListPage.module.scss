@@ -1,0 +1,33 @@
+$filter-width: 300px;
+$table-width: 800px;
+$filter-background: white;
+$padding: 20px;
+$title-color: rgba(0, 0, 0, 0.88);
+
+.employeeListContainer {
+  display: flex;
+  flex-direction: column;
+  padding: $padding;
+}
+
+.filterAndTableContainer {
+  display: flex;
+}
+
+.filterContainer {
+  width: $filter-width;
+  background: $filter-background;
+  padding: $padding;
+}
+
+.filterTitle {
+  color: $title-color;
+}
+
+.tableContainer {
+  width: $table-width;
+}
+
+.filterButton {
+  width: 100%;
+}
